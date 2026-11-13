@@ -1,0 +1,9 @@
+{
+  "build_command": "npm run build",
+  "unit_test_command": "npm test -- --coverage",
+  "coverage_command": null,
+  "performance_budget_seconds": 180,
+  "max_file_size_mb": 10,
+  "report_formats": ["json", "html"],
+  "skip_directories": ["node_modules", ".git", ".venv", "venv", "dist", "build", "coverage", ".next", "playwright-report", "test-results"]
+}

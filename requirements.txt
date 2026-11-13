@@ -1,0 +1,2 @@
+# Core engine uses Python standard library only.
+# Optional tools are detected automatically: npm, git, pytest, vitest, playwright.
