@@ -5,5 +5,75 @@
   "performance_budget_seconds": 180,
   "max_file_size_mb": 10,
   "report_formats": ["json", "html"],
-  "skip_directories": ["node_modules", ".git", ".venv", "venv", "dist", "build", "coverage", ".next", "playwright-report", "test-results"]
+  "skip_directories": [
+    "node_modules",
+    ".git",
+    ".venv",
+    "venv",
+    "dist",
+    "build",
+    "coverage",
+    ".next",
+    "playwright-report",
+    "test-results"
+  ],
+  "skill_categories": [
+    {
+      "id": "security_audit",
+      "name": "Security Audit",
+      "enabled": true,
+      "skills": [
+        "security_checker",
+        "env_validation"
+      ]
+    },
+    {
+      "id": "vulnerability_assessment",
+      "name": "Vulnerability Assessment",
+      "enabled": true,
+      "skills": [
+        "security_testing",
+        "api_testing"
+      ]
+    },
+    {
+      "id": "bug_error_detection",
+      "name": "Bug & Error Detection",
+      "enabled": true,
+      "skills": [
+        "linting",
+        "typescript_quality",
+        "code_coverage"
+      ]
+    },
+    {
+      "id": "website_compatibility",
+      "name": "Website Compatibility Audit",
+      "enabled": true,
+      "skills": [
+        "accessibility",
+        "mobile",
+        "ios",
+        "android",
+        "pwa_compliance"
+      ]
+    },
+    {
+      "id": "ai_visibility",
+      "name": "AI Visibility Audit",
+      "enabled": true,
+      "skills": [
+        "seo"
+      ]
+    }
+  ],
+  "optional_skills": {
+    "dependency_health": true,
+    "bundle_analysis": true,
+    "performance": true,
+    "uat": true,
+    "mock_testing": true,
+    "release_notes": true,
+    "feature_versioning": true
+  }
 }
