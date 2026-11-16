@@ -74,6 +74,12 @@
     "uat": true,
     "mock_testing": true,
     "release_notes": true,
-    "feature_versioning": true
+    "feature_versioning": true,
+    "error_handling": true,
+    "database_safety": true,
+    "cross_browser": true,
+    "documentation": true,
+    "git_hygiene": true,
+    "ci_cd": true
   }
 }
